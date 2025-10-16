@@ -80,6 +80,7 @@ const LoginForm = () => {
                     type="button"
                     disabled={isPending}
                   >
+                    <Image src={"/logos/github.svg"} alt="Github" width={20} height={20} />
                     Entrar com Github
                   </Button>
 
@@ -89,6 +90,7 @@ const LoginForm = () => {
                     type="button"
                     disabled={isPending}
                   >
+                    <Image src={"/logos/google.svg"} alt="Google" width={20} height={20} />
                     Entrar com Google
                   </Button>
                 </div>
